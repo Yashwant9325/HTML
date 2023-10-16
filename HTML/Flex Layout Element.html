@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout Element</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        header{
+            background-color: aqua;
+            padding: 30px;
+            text-align: center;
+        }
+        ul{
+            
+            list-style-type: none;
+        }
+        nav{
+            background-color: blue;
+            flex: 2;
+            height: 500px;
+        }
+        aside{
+            background-color: brown;
+            flex: 8;
+            height: 500px;
+
+
+        }
+        article{
+            background-color: gold;
+            flex: 2;
+            height: 500px;
+
+        }
+        footer{
+            background-color: lightgreen;
+            padding: 30px;
+
+        }
+        section{
+            display: flex;
+        }
+           
+
+    </style>
+</head>
+<body>
+  
+
+    
+    <header>
+        <h1 style="text-align: center;">cities</h1>
+    </header>
+    <section>
+    <nav>
+        <ul>
+            <li><a href="">Landon</a></li>
+            <li><a href="">America</a></li>
+            <li><a href="">Japan</a></li>
+
+        </ul>
+
+    </nav>
+    <aside>
+        <h1>Landon</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum officiis quae facilis excepturi. Illo saepe laboriosam officiis aliquid aut eveniet quae cum mollitia deserunt commodi vel, doloribus iusto impedit deleniti.</p>
+    </aside>
+    <article>
+        <h1>Flex Layout Element</h1>
+    </article>
+</section>
+    <footer>
+        <h4 style="text-align: center;">Footer Content Element</h4>
+    </footer>
+
+</body>
+</html>

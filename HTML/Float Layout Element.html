@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Layout Element</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        header{
+            background-color: aquamarine;
+            padding:30px;
+        }
+        nav{
+           background-color: azure;
+           height: 500px;
+           width: 20%; 
+           float: left;
+        }
+        aside{
+            background-color: blue;
+            height: 500px;
+            width: 80%;
+            float: right;
+        }
+        footer{
+            background-color: brown;
+            text-align: center;
+            clear: both;
+            padding: 20px;
+        
+            
+
+
+        }
+        @media (max-width :700px){
+            nav,aside{
+                width: 100%;
+                height: auto;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">cities</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">landon</a></li>
+            <li><a href="">tocyo</a></li>
+            <li><a href="">paris</a></li>
+
+        </ul>
+    </nav>
+    <aside>
+        <h1>landon</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sed suscipit animi quia, exercitationem quod beatae modi nulla repellat reprehenderit inventore vel pariatur? Excepturi, laudantium. Doloribus placeat reprehenderit quia tempore?</p>
+    </aside>
+    <footer>
+        <h4>Footer Element Content</h4>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css table</title>
+    <style>
+        table,th,tr,td{
+            border: solid;
+            border-collapse: collapse;
+            /* width: 100%; */
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            text-align: center;
+            padding: 10px;
+            background-color: aqua;
+        }
+        td{
+            text-align: center;
+            padding: 5px;
+
+        }
+        tr:nth-child(odd){
+            background-color: brown;
+        }
+        tr:hover{
+            background-color: chartreuse;
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <h1>Table</h1>
+    <table>
+        <tr>
+            <th>Sr.No</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>percentage</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Yash</td>
+            <td>kolhapur</td>
+            <td>90.00</td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Omkar</td>
+            <td>satara</td>
+            <td>95.00</td>
+            
+        </tr><tr>
+            <td>3</td>
+            <td>Omkar</td>
+            <td>kolhapur</td>
+            <td>90.00</td>
+            
+        </tr><tr>
+            <td>4</td>
+            <td>Satyajeet</td>
+            <td>sangli</td>
+            <td>90.00</td>
+            
+        </tr><tr>
+            <td>5</td>
+            <td>Tushar</td>
+            <td>karad</td>
+            <td>92.00</td>
+            
+        </tr>
+        <tfoot>
+            <td>Total</td>
+            <td colspan="2"></td>
+            <td>500</td>
+            
+        </tfoot>
+        
+    </table>
+
+   
+    
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Property</title>
+    <style>
+        h1{
+            background-color: #3e8e41;
+            padding: 40px;
+        }
+        .A{
+            background-color: darkorange;
+            margin: 0;
+            
+        }
+        .dropbtn{
+           background-color: aqua;
+            color: white;
+            padding: 34px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 4px 4px 6px red;
+            
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: red;
+            min-width: 160px;
+            
+            z-index: 1;
+        }
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display:block;
+        }
+        .dropdown-content a:hover {background-color: #3e8e41;}
+
+        .dropdown:hover .dropdown-content {
+        display:block;
+        }
+
+        .dropdown:hover .dropbtn {
+       background-color: crimson;
+       
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Dropdown Menu</h1>
+    <div class="A">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, dolor itaque? Eum cum ipsum qui, facilis aut nemo laboriosam placeat quod. Sint optio dolorem quam deserunt distinctio totam ipsa non!
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="">Mode1</a>
+                <a href="">Mode2</a>
+                <a href="">Mode3</a>
+                <a href="">Mode4</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

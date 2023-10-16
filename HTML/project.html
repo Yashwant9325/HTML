@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: aqua;
+            padding: 30px;
+        }
+        ul{
+            list-style: none;
+        }
+        nav{
+            background-color: black;
+            text-align: center;
+            color: aliceblue;
+            
+            
+        }
+        li{
+            display: inline-block;
+            padding: 15px;
+        }
+       .banner{
+        width: 100%;
+       }
+        section{
+            display: flex;
+            
+        }
+        .image{
+            flex: 10;
+            margin: 15px;
+        }
+        .image{
+            width: 100%;
+        }
+        .yash{
+            display: inline-block;
+            display: flex;
+        }
+        footer{
+            background-color: brown;
+            padding:30px;
+        }
+            
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">My Project</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Kolhapur</a></li>
+            <li><a href="">Sangli</a></li>
+            <li><a href="">Solapur</a></li>
+        </ul>
+    </nav>
+    <article>
+        <img src="data:image/jpeg;base64,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"
+           class="banner" alt="">
+        </article>
+    <section>
+        <div class="image">
+            <img src="Images/download.jfif" class="image" alt="">
+        </div>
+        <div class="image">
+            <img src="Images/download.jfif"  class="image"alt="">
+        </div>
+        <div class="image">
+            <img src="Images/download.jfif" class="image"alt="">
+        </div>
+        <div class="image">
+            <img src="Images/download.jfif" class="image"alt="">
+        </div>
+
+    </section>
+    <aside class="yash">
+        <iframe width="50%" height="315" src="https://www.youtube.com/embed/eIcz71oxlbU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61094.9873047482!2d74.54281445566745!3d16.854278172508774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10c8187f060eb%3A0x37911f53cdc1ddb3!2sSangli%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1691827550124!5m2!1sen!2sin"
+            width="50%" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+    <footer>
+        <h4 style="text-align: center;">Footer</h4>
+    </footer>
+
+</body>
+
+</html>
